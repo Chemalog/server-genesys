@@ -1,0 +1,13 @@
+name = "Hoofprint"
+filename = "hoofprint-1.3.0+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2395ad821239db36507fc6946d185fd10e81d3c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7617616
+project-id = 1402895

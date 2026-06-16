@@ -1,0 +1,13 @@
+name = "EasyLogin"
+filename = "easylogin-neoforge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "99473c98f0a0e2bd9f2dade67f8ea728ba0b1251"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8035815
+project-id = 1459279

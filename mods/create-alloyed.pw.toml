@@ -1,0 +1,13 @@
+name = "Create: Alloyed"
+filename = "alloyed-3.0.9+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a196057e9c086e0303ec91c58362050bf9fc52da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8016758
+project-id = 564792

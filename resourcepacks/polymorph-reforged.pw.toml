@@ -1,0 +1,13 @@
+name = "Polymorph Reforged"
+filename = "§dPolymorph §5Reforged 1.17.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "33189332b0c954910a93c6ee91a0bd6e30a83ae2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4671620
+project-id = 896351

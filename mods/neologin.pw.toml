@@ -1,0 +1,13 @@
+name = "NeoLogin"
+filename = "neologin-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "efc38512274a0073d23c17b4fa1a67d8a515fa37"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8124313
+project-id = 1524960

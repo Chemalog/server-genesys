@@ -1,0 +1,13 @@
+name = "Genesis Server"
+author = "Chema"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9093d6403a68999b877b96f0f996bc82db048c0c7a1145521c71f668fb81d4e0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

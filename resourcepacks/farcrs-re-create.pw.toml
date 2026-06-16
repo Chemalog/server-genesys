@@ -1,0 +1,13 @@
+name = "Farcr's Re-Create"
+filename = "Farcr's Re-Create 1.6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5e4f18a3c97f227071242d127914c51048f0a31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5888651
+project-id = 646979

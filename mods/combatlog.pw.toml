@@ -1,0 +1,13 @@
+name = "Combatlog"
+filename = "combatlog-neoforge-2.6+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ff0a4298734ba7808641d8e7e4b7679d97b5824"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7418312
+project-id = 665758

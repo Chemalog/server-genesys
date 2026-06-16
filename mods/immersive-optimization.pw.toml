@@ -1,0 +1,13 @@
+name = "Immersive Optimization"
+filename = "immersive_optimization-neoforge-1.21-0.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5320358135197f36f2c3b89cac9543b7a77f4300"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8087860
+project-id = 1163206
