@@ -861,14 +861,6 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
-file = "jars_to_convert.txt"
-hash = "2ff925a7eefa56efad7d8b46fd926fdf0280ae9a52af6ddf4e174e30fe87d379"
-
-[[files]]
-file = "keo_mods.txt"
-hash = "72d86eaf9051e805819da11d56267ffa73c8c177bd3c36eebf03af6a0f6fb2fb"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -905,48 +897,8 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
-file = "local_mods.txt"
-hash = "d8a81941ccca306c9333c80bac8450204a6ff6c8d924c50b40b5fb9d5c63682a"
-
-[[files]]
-file = "missing.txt"
-hash = "40ad4c7b69a449aa5f1218f70e7ea2f75b174312c7ea7da001b48ea1578d25b7"
-
-[[files]]
-file = "mods/.connector/hoofprint-1.3.0+1.21_mapped_moj_1.21.1.jar"
-hash = "d10d817ad91a2cb3203785feeb43d4521b1e07e3f6c24078aa8c7de8b1f4481c"
-
-[[files]]
-file = "mods/.connector/hoofprint-1.3.0+1.21_mapped_moj_1.21.1.jar.input"
-hash = "444b83b28f9846ebf33f8b64e2d0a0af4ef89ef5ee9c66f6c33eb88225993abf"
-
-[[files]]
-file = "mods/.connector/patch_audit.txt"
-hash = "894031c9414569a71d4b44ca525c654d5d07f848afad79c2a3a57cbb025421e4"
-
-[[files]]
-file = "mods/.connector/surveyor-1.2.4+1.21$kaleido-config-0.3.1+1.3.2_mapped_moj_1.21.1.jar"
-hash = "11b99246a5447970dfca076f5f9dc064a44547b3878fb4318e14fd2db290d358"
-
-[[files]]
-file = "mods/.connector/surveyor-1.2.4+1.21$kaleido-config-0.3.1+1.3.2_mapped_moj_1.21.1.jar.input"
-hash = "371704e00365c1b738a978575a2f400a33968be8a6e319375d6b4b6695e5e0c4"
-
-[[files]]
-file = "mods/.connector/surveyor-1.2.4+1.21_mapped_moj_1.21.1.jar"
-hash = "590fd4459e9813525e23a5b7c314876a69022d1a42f66c7e6e06e084c8958515"
-
-[[files]]
-file = "mods/.connector/surveyor-1.2.4+1.21_mapped_moj_1.21.1.jar.input"
-hash = "18b8e3567f394ff79b828420486ed4dffda82fe0ac0e76a4ec12155206280cf6"
-
-[[files]]
-file = "mods/.connector/temp/surveyor-1.2.4+1.21$kaleido-config-0.3.1+1.3.2.jar"
-hash = "11b99246a5447970dfca076f5f9dc064a44547b3878fb4318e14fd2db290d358"
-
-[[files]]
-file = "mods/.connector/temp/surveyor-1.2.4+1.21$kaleido-config-0.3.1+1.3.2.jar.input"
-hash = "371704e00365c1b738a978575a2f400a33968be8a6e319375d6b4b6695e5e0c4"
+file = "mods/DnDesires-1.21.1-2.3a-BETA.jar"
+hash = "d3f7f2384e8327c81671f2d48df15a0bba98ef04b727a430079cfc9145a7a379"
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
@@ -1065,7 +1017,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "6cabae8686cf85c826d1280f00e00d67bb7672d353f669bea9f3775de39dd378"
+hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
 metafile = true
 
 [[files]]
@@ -1116,11 +1068,6 @@ metafile = true
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "b8871b2a91d1eb68d187060e8f6e34d9cd2b407677587e9481b4b9eb042afab0"
-metafile = true
-
-[[files]]
-file = "mods/create-dreams-desires.pw.toml"
-hash = "21c83a2a79ec084cf15634b178ad86c078e21a08ac1183d4ae2c09200a06e031"
 metafile = true
 
 [[files]]
@@ -1175,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -1240,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "4c8454a265574253ae608448e14a1acf138b364cced8245c72e9c4b68fb52207"
+hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
 metafile = true
 
 [[files]]
@@ -1485,7 +1432,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "e8ec0a7577c9e3354b78cc613c2c5e6a9fd708a026869aba82d4ce7fc04bc2e7"
+hash = "2b4fb5e3d16d30b59be78c4efc3dd7b7c3066e6486ef0c99fb32af510ffc308a"
 metafile = true
 
 [[files]]
@@ -1631,10 +1578,6 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
-
-[[files]]
-file = "neo_mods.txt"
-hash = "ba7638409f053004ec7faa7c9e5ad1177458534b24e821da51df4953be864ff6"
 
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
