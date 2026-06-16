@@ -1435,7 +1435,7 @@ metafile = true
 
 [[files]]
 file = "mods/neologin.pw.toml"
-hash = "1f7cb2b61ae602be6354fd89405f777b653c96788dea1d26e5c6902f00f49f72"
+hash = "ffbf435c8f194524a681658e3a491fd51249e2adbcbe992973a7d37f1cce9bdd"
 metafile = true
 
 [[files]]
@@ -1638,12 +1638,12 @@ hash = "ba7638409f053004ec7faa7c9e5ad1177458534b24e821da51df4953be864ff6"
 
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
-hash = "6d6b7da245ca52c3dcfa20907de5934af51634f07319c3072b26a7f9971e1738"
+hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
 
 [[files]]
 file = "resourcepacks/farcrs-better-dirt.pw.toml"
-hash = "7e073b0be99cdb8cf8593b3bd2814a9773ec972717722d43aada9864a6808d95"
+hash = "248031494f50b140e19984b9f4e29ea1a4a02f2658d2525df2efd5fe95fce85d"
 metafile = true
 
 [[files]]
