@@ -1,46 +1,46 @@
 # Genesis Modpack
 
-Packwiz pack for the Genesis server. This repo is the **source of truth** for the launcher — every time a player clicks PLAY, the launcher reads this pack and syncs their mods automatically.
+Pack de packwiz para el servidor Genesis. Este repo es la **fuente de verdad** del launcher: cada vez que un jugador hace click en JUGAR, el launcher lee este pack y sincroniza los mods automáticamente.
 
-## Requirements
+## Requisitos
 
-- [packwiz CLI](https://github.com/packwiz/packwiz/releases) — download and add to PATH
+- [packwiz CLI](https://github.com/packwiz/packwiz/releases) — descargar y agregar al PATH
 - Git
 
 ---
 
-## How to update mods
+## Cómo actualizar los mods
 
-### 1. Update your mods in CurseForge App
+### 1. Actualizar los mods en CurseForge App
 
-Add, remove, or update mods normally in the CurseForge app for your profile.
+Agregá, eliminá o actualizá mods normalmente en la app de CurseForge en tu perfil.
 
-### 2. Export from CurseForge
+### 2. Exportar desde CurseForge
 
-In the CurseForge App:
-`My Modpacks → right click your profile → Export Profile → Export`
+En la CurseForge App:
+`Mis Modpacks → click derecho en el perfil → Export Profile → Export`
 
-Save the `.zip`, extract it. You'll get a folder with `manifest.json` inside.
-Place (or replace) it at: `../genesis-neo/manifest.json`
+Guardá el `.zip`, extraelo. Vas a tener una carpeta con `manifest.json` adentro.
+Reemplazá el archivo en: `../genesis-neo/manifest.json`
 
-### 3. Import into packwiz
+### 3. Importar a packwiz
 
 ```bash
 cd genesis-modpack
 packwiz curseforge import ..\genesis-neo\manifest.json
 ```
 
-This updates all `.pw.toml` files to match your CurseForge export.
+Esto actualiza todos los archivos `.pw.toml` para que coincidan con tu export de CurseForge.
 
-### 4. Refresh the index
+### 4. Refrescar el índice
 
-**This step is mandatory.** Without it, the launcher won't detect the changes.
+**Este paso es obligatorio.** Sin él, el launcher no detecta los cambios.
 
 ```bash
 packwiz refresh
 ```
 
-### 5. Push to GitHub
+### 5. Push a GitHub
 
 ```bash
 git add .
@@ -48,60 +48,63 @@ git commit -m "chore: update mods from CurseForge export"
 git push origin main
 ```
 
-That's it. The next time any player clicks **PLAY**, the launcher pulls the updated pack and downloads only what changed.
+Listo. La próxima vez que cualquier jugador haga click en **JUGAR**, el launcher baja el pack actualizado, descarga solo lo que cambió y elimina los mods que se quitaron del pack.
 
 ---
 
-## Adding a single mod manually
+## Agregar un mod suelto manualmente
 
 ```bash
-# From CurseForge (by project ID — found in the mod's URL on curseforge.com)
+# Desde CurseForge (por project ID — está en la URL del mod en curseforge.com)
 packwiz curseforge add --project-id 394468
 
-# From Modrinth (by slug or ID)
+# Desde Modrinth (por slug o ID)
 packwiz modrinth add sodium
 
-# Then always refresh and push
+# Siempre terminar con refresh y push
 packwiz refresh
 git add .
-git commit -m "feat: add <mod name>"
+git commit -m "feat: add <nombre del mod>"
 git push origin main
 ```
 
-## Removing a mod
+## Eliminar un mod
 
 ```bash
-# Delete the .pw.toml file
+# Borrar el archivo .pw.toml del mod
 del mods\sodium.pw.toml
 
 packwiz refresh
 git add .
-git commit -m "chore: remove <mod name>"
+git commit -m "chore: remove <nombre del mod>"
 git push origin main
 ```
 
----
-
-## What happens on the player side
-
-```
-Player clicks PLAY
-   └─ Launcher reads pack.toml + index.toml from GitHub (raw)
-   └─ For each mod: checks local hash against index
-       ├─ Hash matches → skip (already up to date)
-       └─ Hash differs or missing → download
-   └─ Minecraft launches with all mods in sync
-```
-
-No manual action needed from players. Everything is automatic.
+El launcher elimina automáticamente el `.jar` del cliente en la próxima sincronización.
 
 ---
 
-## Pack structure
+## Qué pasa del lado del jugador
 
-| File | Purpose |
+```
+Jugador hace click en JUGAR
+   └─ El launcher lee pack.toml + index.toml desde GitHub (raw)
+   └─ Elimina mods que ya no están en el pack
+   └─ Por cada mod: verifica hash local contra el índice
+       ├─ Hash coincide → saltar (ya está actualizado)
+       └─ Hash distinto o falta el archivo → descargar
+   └─ Minecraft inicia con todos los mods sincronizados
+```
+
+Los jugadores no necesitan hacer nada. Todo es automático.
+
+---
+
+## Estructura del pack
+
+| Archivo | Para qué sirve |
 |---|---|
-| `pack.toml` | Pack metadata (MC version, NeoForge version) |
-| `index.toml` | Master list of all files with SHA256 hashes |
-| `mods/*.pw.toml` | One file per mod — download URL and hash |
-| `config/` | Config files distributed to all players |
+| `pack.toml` | Metadata del pack (versión de MC, versión de NeoForge) |
+| `index.toml` | Lista maestra de todos los archivos con hashes SHA256 |
+| `mods/*.pw.toml` | Un archivo por mod — URL de descarga y hash |
+| `config/` | Configs distribuidas a todos los jugadores |
