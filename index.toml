@@ -897,10 +897,6 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
-file = "mods/DnDesires-1.21.1-2.3a-BETA.jar"
-hash = "d3f7f2384e8327c81671f2d48df15a0bba98ef04b727a430079cfc9145a7a379"
-
-[[files]]
 file = "mods/advanced-loot-info.pw.toml"
 hash = "325a8da222fa69e6d8761d4394d2f12e6e95f1b7d679cfa166081b6b5c026208"
 metafile = true
@@ -1031,18 +1027,8 @@ hash = "04d77085a95a9c684abed02b1fbdd1b0252c2d440a4f26da84bbbf50a9b5b7d1"
 metafile = true
 
 [[files]]
-file = "mods/create-better-fps.pw.toml"
-hash = "13481b387ddbf461b1da0ff317df17beafeda05291a586ee717bac23c86a0e74"
-metafile = true
-
-[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "2c6621f2d82a9be0240bbf9c0a416f7dc79edd63636f6d1b869c93ca5f59bade"
-metafile = true
-
-[[files]]
-file = "mods/create-broken-bad-rebroken.pw.toml"
-hash = "5dc6bf659c7c3550ae05515fcf70ed9a0ce2c98b1f039477746ab1f84c418f44"
 metafile = true
 
 [[files]]
@@ -1081,28 +1067,13 @@ hash = "37c21deaf7e65569fa9dcc59a477a55ab8937153c591f1bc4d6249de9582044f"
 metafile = true
 
 [[files]]
-file = "mods/create-escalated.pw.toml"
-hash = "83a4dce77b25932faab4b08608c1b5c418e2d629fd78a237bfd8a9483d3b079b"
-metafile = true
-
-[[files]]
 file = "mods/create-mechanical-spawner.pw.toml"
 hash = "4fffb425b88da93d488b601eaa68f97acaa6938c9effe17388b32cd4423c81c3"
 metafile = true
 
 [[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
-metafile = true
-
-[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "933542ef6b68b15a91e20f9d87cb1f03546d0081b12c2e489df860fd47b3be28"
-metafile = true
-
-[[files]]
-file = "mods/create-power-loader.pw.toml"
-hash = "3872eeb409b1a2b5acdf5a270825a9e703e240ee8230a08b820a21c19f14c27e"
 metafile = true
 
 [[files]]
@@ -1121,11 +1092,6 @@ hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
 metafile = true
 
 [[files]]
-file = "mods/create-trading-floor.pw.toml"
-hash = "73ffac269e3ce480c7dd3a17e7f2f027e73727fcc375d4e1cef4c490cdd36686"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
@@ -1133,11 +1099,6 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "59aa1a3df4e518214f13a5f4db7f513ea47f12a48ac0743f93a34d9a9a46ba71"
-metafile = true
-
-[[files]]
-file = "mods/createnuclear.pw.toml"
-hash = "67ab07725f633de3c427914656c6ada7b0cd094cfee4ef34a7f8b4b0684bcf14"
 metafile = true
 
 [[files]]
@@ -1276,11 +1237,6 @@ hash = "c3fff9489aea0abec207b0e6cd6e59326c16e31fbd8dc61eaa29cdbfc7bfce4a"
 metafile = true
 
 [[files]]
-file = "mods/hoofprint.pw.toml"
-hash = "3bd13aec6c872c36e0c74068b27c981825fd34b51f385d5598df07b7f0d48aca"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "8e67a96432b89ad64ec00b59666f510ead091dea23632a672ac800c77964e9ae"
 metafile = true
@@ -1386,11 +1342,6 @@ hash = "fc2b9a82253d8970df6130530b2b0df4cde7b9011ff6a19e6dc5cd57688cb7e5"
 metafile = true
 
 [[files]]
-file = "mods/neologin.pw.toml"
-hash = "ffbf435c8f194524a681658e3a491fd51249e2adbcbe992973a7d37f1cce9bdd"
-metafile = true
-
-[[files]]
 file = "mods/noisiumforked.pw.toml"
 hash = "9c93eb7b597436c3f71fd4c19121633146776c50b7c9b3b06c7dc9441d722da9"
 metafile = true
@@ -1451,11 +1402,6 @@ hash = "49a3193e0de40bb7f935b08c50e384a05e42b1c09bb9b1b38013859c38d082e4"
 metafile = true
 
 [[files]]
-file = "mods/sign-plates-letters-symbols.pw.toml"
-hash = "94dbc5ec23086beed16289ecc17a0a345493e5fcea5f0f61e007ac2439a430d2"
-metafile = true
-
-[[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "eff7ebd7bc65ef5d3ba8ac731bc3fb2fd9697566f53dcedbfc55d0b4bb55d60d"
 metafile = true
@@ -1496,16 +1442,6 @@ hash = "d8c1903e1d2ff470c5d177bf1537c6a4fe8c78be270f06bb40e0a3be865dc1db"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "c66a21cc5dcab2ba241b47c42544cf0ca1bccdf8e6605c6d332837fb2dbe98ca"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage.pw.toml"
-hash = "8e87d947e258a9009357169f1f1ff88d3dac32cd61e58e8de2d365c8e4194fd2"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
@@ -1521,18 +1457,8 @@ hash = "db845eb158247bde04edc727945fbf67c6a46f0cbe4d2a1e9142263c022c73f8"
 metafile = true
 
 [[files]]
-file = "mods/surveyor-map-framework.pw.toml"
-hash = "9063a0a9ccc1f3e57479d4c20faa00ef26744162ae6cac214b8edf28cb2b692d"
-metafile = true
-
-[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cbbc06cd921b629776f574566af0b5dbd58819fad7513cfaac2967d3fb750845"
-metafile = true
-
-[[files]]
-file = "mods/tempad.pw.toml"
-hash = "1c7818890dda9f6d9eeba4642b83a6cbd5c7913acc2738b1c5ee092ee4aefe2e"
 metafile = true
 
 [[files]]
@@ -1544,10 +1470,6 @@ metafile = true
 file = "mods/terralith.pw.toml"
 hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
 metafile = true
-
-[[files]]
-file = "mods/terratonic-3.0.18.zip"
-hash = "5ccce5c3bd4a4fc86ee28d5cec4e75b2f4074d7d7d9e9689ac8aaa91700e5277"
 
 [[files]]
 file = "mods/tmrv.pw.toml"
