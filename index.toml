@@ -1017,7 +1017,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
+hash = "6cabae8686cf85c826d1280f00e00d67bb7672d353f669bea9f3775de39dd378"
 metafile = true
 
 [[files]]
@@ -1068,6 +1068,11 @@ metafile = true
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "b8871b2a91d1eb68d187060e8f6e34d9cd2b407677587e9481b4b9eb042afab0"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-desires.pw.toml"
+hash = "21c83a2a79ec084cf15634b178ad86c078e21a08ac1183d4ae2c09200a06e031"
 metafile = true
 
 [[files]]
@@ -1122,7 +1127,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
@@ -1187,7 +1192,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
+hash = "4c8454a265574253ae608448e14a1acf138b364cced8245c72e9c4b68fb52207"
 metafile = true
 
 [[files]]
@@ -1197,7 +1202,7 @@ metafile = true
 
 [[files]]
 file = "mods/farsight.pw.toml"
-hash = "3138c13c61cca083b45ba2598c2407194ba5ea16d2a610968527eafa021c4635"
+hash = "de6f8baf05357d0561e7fee40a5ff1149d30005f32ed88879056709263698dfc"
 metafile = true
 
 [[files]]
@@ -1432,7 +1437,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "2b4fb5e3d16d30b59be78c4efc3dd7b7c3066e6486ef0c99fb32af510ffc308a"
+hash = "e8ec0a7577c9e3354b78cc613c2c5e6a9fd708a026869aba82d4ce7fc04bc2e7"
 metafile = true
 
 [[files]]
