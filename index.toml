@@ -1676,3 +1676,7 @@ metafile = true
 file = "resourcepacks/toms-create-style.pw.toml"
 hash = "6a2c9c68399a61b12350d55485a52c8ad1d5b661de4c330f42baff927b6c9718"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "e7f2ea0495ef48d4a977c560d83af21a4ff3ab52816ddca18be2450f70b30ceb"
