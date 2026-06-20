@@ -445,10 +445,6 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "6d96e5502598d3edbf4cbf2e707bff087f762e0f1ab892b6d134fe5ad5f46c79"
 
 [[files]]
-file = "config/fancymenu/assets/cont/entrada_minecraft.gif"
-hash = "411e94d814a1fa6fcd3812874b9361cc10c3e217205ffce2ef26261bbbd79509"
-
-[[files]]
 file = "config/fancymenu/assets/cont/gimincraft-ezgif.com-video-to-gif-converter.gif"
 hash = "7b388b93157f2354080ed35c38377f6808782f3f6b9bca1dfad1fd60ab65510e"
 
@@ -1646,6 +1642,10 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "9d93a74e0749d5dbb44ff766d42f4a0ac89e185ceb4be4a2d1051b22f8d7ac26"
 
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
